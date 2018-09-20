@@ -227,7 +227,8 @@ declare -A names=(\
 process "$(declare -p names)" 0.8
 ```
 
-where tableCat.py can be found [here](scripts/tableCat.py).
+where tableCat.py is by [Dario Beraldi](https://bit.ly/2Nte4nm)
+ and can be found [here](scripts/tableCat.py)
 
 
 
