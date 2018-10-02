@@ -227,8 +227,24 @@ declare -A names=(\
 process "$(declare -p names)" 0.8
 ```
 
-where tableCat.py is by [Dario Beraldi](https://bit.ly/2Nte4nm)
- and can be found [here](scripts/tableCat.py)
+where tableCat.py is by [Dario Beraldi](https://bit.ly/2Nte4nm) and can be found [here](scripts/tableCat.py).
 
+
+## Stats 
+
+| Sample | Total aligned reads | Uniquely aligned reads | 
+| ------- | ------------------ | ---------------- | 
+| control_rep_1.bam | 244237421 | 189787371 |
+| control_rep_2.bam | 67922680 | 27659099 |
+| control_rep_3.bam | 267884512 | 204962111 |
+| control_rep_4.bam | 150776954 | 117366752 |
+| control_rep_5.bam | 265300352 | 203690115 |
+| control_rep_6.bam | 96858907 | 72324798 |
+| treatment_rep_1.bam | 115073670 | 78384028 |
+| treatment_rep_2.bam | 130124505 | 91553064 |
+| treatment_rep_3.bam | 126490775 | 88291613 |
+| treatment_rep_4.bam | 129801620 | 92206960 |
+| treatment_rep_5.bam | 88838884 | 60444716 |
+| treatment_rep_6.bam | 120546217 | 82679774 |
 
 
